@@ -1,10 +1,9 @@
 #include "rpmControl.h"
 
 rpmControl::rpmControl() {
-	pinMode(_pinLED, OUTPUT);
 	pinMode(_pinPWM, OUTPUT);
 	pinMode(_pinPotentiometer, INPUT);
-  pinMode(_pinSpeed, INPUT);
+  	pinMode(_pinSpeed, INPUT);
 
 }
 
