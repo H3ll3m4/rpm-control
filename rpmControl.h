@@ -13,16 +13,15 @@
 
 class rpmControl {
 public: 
-	rpmControl();
+  rpmControl();
   void readSpeed();
   void setRPMSpeed();
 
 
 private:
-	int _pinPotentiometer = A0;
-	int _pinPWM = 9;
-	int _pinLED = 7;
-	int _pinSpeed = 3; 
+  int _pinPotentiometer = A0;
+  int _pinPWM = 9;
+  int _pinSpeed = 3; 
   volatile byte _half_revolutions;
   unsigned int _rpm;
   unsigned long _timeold;
